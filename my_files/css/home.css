@@ -2,56 +2,90 @@ body {
   height: auto;
 }
 
-.carosal {
-  padding: 0 20px;
+/*----------------------- start login and register ---------------------------------*/
+.loginAndRegister {
+  position: relative;
 }
-.carosal .pairant div img {
-  width: 100%;
-  height: 316px;
-}
-.owl-carousel .owl-nav button.owl-next {
+.loginAndRegister ul {
   position: absolute;
-  left: 0;
-  top: 50%;
-  display: inline-block;
-}
-.owl-carousel .owl-nav button.owl-prev {
-  position: absolute;
+  top: calc(100% + 10px);
   right: 0;
-  top: 50%;
-  display: inline-block;
+  width: 150px;
+  background: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
-.owl-theme .owl-nav [class*="owl-"]:hover {
-  background: none !important;
-}
-.owl-carousel .owl-nav button.owl-prev span,
-.owl-carousel .owl-nav button.owl-next span {
-  font-size: 60px;
-  color: #ddd;
-  background: #efeff3;
-  opacity: 0.6;
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-}
-.owl-carousel .owl-nav button.owl-next span:hover,
-.owl-carousel .owl-nav button.owl-prev span:hover {
+.loginAndRegister:hover ul {
+  visibility: visible;
   opacity: 1;
 }
+.loginAndRegister ul li a {
+  padding: 7px 10px;
+  color: #222;
+  display: block;
+  font-size: 14px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.loginAndRegister ul li a:hover {
+  background: #eee;
+}
+/*----------------------- end login and register ---------------------------------*/
 
-.swal-icon--error {
+.categoryTopSectionLi {
+  position: relative;
+}
+.categoryTopSectionLi > ul {
+  width: 450px;
+  background: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  right: calc(100% + 10px);
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  height: auto !important;
+}
+.categoryTopSectionLi:hover > ul {
+  visibility: visible;
+  opacity: 1;
+}
+.categoryTopSectionLi > ul > li {
+  width: 33.333%;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+.categoryTopSectionLi > ul > li > a {
+  padding: 10px;
+  display: block !important;
+  width: 100% !important;
+}
+.categoryTopSectionLi > ul > li > a > img {
+  width: 25px;
+  height: 25px;
+}
+.categoryTopSectionLi > ul > li .swal-icon--error {
   border-color: #f27474;
   -webkit-animation: animateErrorIcon 0.5s;
   animation: animateErrorIcon 0.5s;

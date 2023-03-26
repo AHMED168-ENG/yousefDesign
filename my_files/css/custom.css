@@ -1,1 +1,111 @@
-@media screen and (min-width:701px) and (max-width:3000px){.smartbanner{display:none!important}.smartbanner-show{margin-top:0!important}}.smartbanner-container{background-color:#fff!important;font-family:noto sans kufi arabic,sans-serif}.smartbanner-ios{box-shadow:0 1px 2px rgba(194,194,194,.5)!important}.smartbanner-button{left:20px;right:inherit}.smartbanner-ios .smartbanner-button{float:left!important;left:20px!important;right:inherit!important;background-image:linear-gradient(-174deg,#37bff8 0,#5186ec 100%)!important;border:none!important;border-radius:20px!important;height:34px!important;font-size:13px!important;font-family:noto sans kufi arabic,sans-serif!important;font-weight:700!important;color:#fff!important;box-shadow:none!important;padding:10px 20px!important;line-height:1;text-shadow:none}.smartbanner-icon{margin-left:10px;box-shadow:0 0 4px rgba(143,143,143,.58)!important}.smartbanner-ios .smartbanner-icon{margin-left:10px;box-shadow:0 0 4px rgba(143,143,143,.58)!important}.hide{display:none!important}.authentication button.btn-success img{float:left;width:13px;margin-left:10px}.authentication button.btn-success{background:#635bff;border-radius:30px;color:#fff;text-align:right;width:100%;height:45px;line-height:.3em;padding-right:28px;margin-top:30px}.authentication .form-group{position:relative;margin-bottom:20px}.authentication .form-group img{position:absolute;right:20px;max-width:14px;filter:invert(95%) sepia(6%) saturate(325%) hue-rotate( 162deg ) brightness(100%) contrast(96%);top:15px;opacity:.3}.authentication .form-group input{background:#eaeffa;border:2px solid #eaeffa;border-radius:30px;height:45px;color:#525270;padding-right:42px;padding-top:11px;font-family:Poppins;font-weight:500;font-size:14px}header .dropdown .dropdown-menu.megamenu .megamenu-container .col-megamenu li.active{background:rgba(224,224,250,.29);color:#8271e2}.products-ul-for-category-account a{font-size:12px!important}.products-ul-for-category-account img{width:14px!important;border-radius:0!important}.apple-pay-button{-webkit-appearance:-apple-pay-button}
+@media screen and (min-width: 701px) and (max-width: 3000px) {
+  .smartbanner {
+    display: none !important;
+  }
+  .smartbanner-show {
+    margin-top: 0 !important;
+  }
+}
+.smartbanner-container {
+  background-color: #fff !important;
+  font-family: noto sans kufi arabic, sans-serif;
+}
+.smartbanner-ios {
+  box-shadow: 0 1px 2px rgba(194, 194, 194, 0.5) !important;
+}
+.smartbanner-button {
+  left: 20px;
+  right: inherit;
+}
+.smartbanner-ios .smartbanner-button {
+  float: left !important;
+  left: 20px !important;
+  right: inherit !important;
+  background-image: linear-gradient(
+    -174deg,
+    #37bff8 0,
+    #5186ec 100%
+  ) !important;
+  border: none !important;
+  border-radius: 20px !important;
+  height: 34px !important;
+  font-size: 13px !important;
+  font-family: noto sans kufi arabic, sans-serif !important;
+  font-weight: 700 !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  padding: 10px 20px !important;
+  line-height: 1;
+  text-shadow: none;
+}
+.smartbanner-icon {
+  margin-left: 10px;
+  box-shadow: 0 0 4px rgba(143, 143, 143, 0.58) !important;
+}
+.smartbanner-ios .smartbanner-icon {
+  margin-left: 10px;
+  box-shadow: 0 0 4px rgba(143, 143, 143, 0.58) !important;
+}
+.hide {
+  display: none !important;
+}
+.authentication button.btn-success img {
+  float: left;
+  width: 13px;
+  margin-left: 10px;
+}
+.authentication button.btn-success {
+  background: #635bff;
+  border-radius: 30px;
+  color: #fff;
+  text-align: right;
+  width: 100%;
+  height: 45px;
+  line-height: 0.3em;
+  padding-right: 28px;
+  margin-top: 30px;
+}
+.authentication .form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+.authentication .form-group img {
+  position: absolute;
+  right: 20px;
+  max-width: 14px;
+  filter: invert(95%) sepia(6%) saturate(325%) hue-rotate(162deg)
+    brightness(100%) contrast(96%);
+  top: 15px;
+  opacity: 0.3;
+}
+.authentication .form-group input {
+  background: #eaeffa;
+  border: 2px solid #eaeffa;
+  border-radius: 30px;
+  height: 45px;
+  color: #525270;
+  padding-right: 42px;
+  padding-top: 11px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 14px;
+}
+header
+  .dropdown
+  .dropdown-menu.megamenu
+  .megamenu-container
+  .col-megamenu
+  li.active {
+  background: rgba(224, 224, 250, 0.29);
+  color: #8271e2;
+}
+.products-ul-for-category-account a {
+  font-size: 12px !important;
+}
+.products-ul-for-category-account img {
+  width: 14px !important;
+  border-radius: 0 !important;
+}
+.apple-pay-button {
+  -webkit-appearance: -apple-pay-button;
+}
